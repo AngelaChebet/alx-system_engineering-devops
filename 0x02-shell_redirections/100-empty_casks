@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type d,f -empty | ls -a | cat
+find ./ -empty -printf "%f\n"
